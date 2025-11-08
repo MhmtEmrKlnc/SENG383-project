@@ -1,0 +1,246 @@
+.step4-analyze {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.step4-analyze h2 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.step-description {
+  color: #666;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.case-study-banner {
+  background-color: #9c27b0;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.case-study-banner strong {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.case-study-banner p {
+  margin: 0;
+  opacity: 0.9;
+}
+
+.overall-score-card {
+  text-align: center;
+  padding: 3rem 2rem;
+  border-radius: 8px;
+  border: 3px solid;
+  margin-bottom: 2rem;
+}
+
+.score-value {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.score-label {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.results-section {
+  margin-bottom: 2rem;
+}
+
+.results-section h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.scores-table {
+  overflow-x: auto;
+}
+
+.scores-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.scores-table thead {
+  background-color: #9c27b0;
+  color: white;
+}
+
+.scores-table th,
+.scores-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.scores-table th {
+  font-weight: 600;
+}
+
+.scores-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.interpretation-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.interpretation-badge.strong {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.interpretation-badge.moderate {
+  background-color: #fff3e0;
+  color: #e65100;
+}
+
+.interpretation-badge.weak {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.gap-analysis {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #fff3e0;
+  border-radius: 8px;
+  border-left: 4px solid #ff9800;
+}
+
+.gap-analysis h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.gaps-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.gap-item {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #ffcc80;
+}
+
+.gap-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.gap-icon {
+  font-size: 1.5rem;
+}
+
+.gap-details {
+  display: flex;
+  gap: 1rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.recommendations {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #e3f2fd;
+  border-radius: 8px;
+}
+
+.recommendations h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.recommendations ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+  color: #333;
+}
+
+.recommendations li {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.step-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #9c27b0;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #7b1fa2;
+}
+
+.btn-secondary {
+  background-color: #e0e0e0;
+  color: #666;
+}
+
+.btn-secondary:hover {
+  background-color: #d0d0d0;
+}
+
+.step-counter {
+  color: #666;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .scores-table {
+    font-size: 0.85rem;
+  }
+  
+  .scores-table th,
+  .scores-table td {
+    padding: 0.5rem;
+  }
+  
+  .score-value {
+    font-size: 3rem;
+  }
+}
+
+
+

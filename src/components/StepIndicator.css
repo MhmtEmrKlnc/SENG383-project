@@ -1,0 +1,82 @@
+.step-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  padding: 1rem;
+}
+
+.step-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.step-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background-color: #e0e0e0;
+  color: #666;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.step-icon.active-icon {
+  background-color: #9c27b0;
+  color: white;
+}
+
+.step-icon.completed-icon {
+  background-color: #4caf50;
+  color: white;
+}
+
+.step-label {
+  font-size: 0.875rem;
+  color: #666;
+  font-weight: 500;
+}
+
+.step-item.active .step-label {
+  color: #9c27b0;
+  font-weight: 600;
+}
+
+.step-item.completed .step-label {
+  color: #4caf50;
+}
+
+.step-connector {
+  width: 80px;
+  height: 2px;
+  background-color: #e0e0e0;
+  margin: 0 10px;
+  margin-bottom: 20px;
+}
+
+.step-item.completed + .step-connector {
+  background-color: #4caf50;
+}
+
+@media (max-width: 768px) {
+  .step-indicator {
+    flex-wrap: wrap;
+  }
+  
+  .step-connector {
+    width: 40px;
+  }
+  
+  .step-label {
+    font-size: 0.75rem;
+  }
+}
+
+
+

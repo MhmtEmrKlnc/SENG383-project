@@ -1,0 +1,426 @@
+.step3-collect {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.step3-collect h2 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.step-description {
+  color: #666;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.metrics-section {
+  margin-bottom: 2rem;
+}
+
+.characteristic-metrics {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.characteristic-metrics h3 {
+  color: #9c27b0;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #9c27b0;
+}
+
+.sub-characteristic-metrics {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+}
+
+.sub-characteristic-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.sub-characteristic-metrics h4 {
+  color: #333;
+  font-size: 1rem;
+  margin: 0;
+}
+
+.btn-add-metric {
+  padding: 0.5rem 1rem;
+  background-color: #e0e0e0;
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.metric-input-group label {
+  display: block;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.metric-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.metric-input-wrapper input {
+  flex: 1;
+  max-width: 200px;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.metric-unit {
+  font-weight: 500;
+  color: #666;
+  min-width: 50px;
+}
+
+.metric-info {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.metric-range {
+  color: #666;
+}
+
+.metric-direction {
+  font-weight: 500;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+.metric-direction.higher {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.metric-direction.lower {
+  background-color: #fff3e0;
+  color: #e65100;
+}
+
+.step-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e0e0e0;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #9c27b0;
+  color: white;
+}
+
+.btn-primary:hover:not(:disabled) {
+  background-color: #7b1fa2;
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  background-color: #e0e0e0;
+  color: #666;
+}
+
+.btn-secondary:hover {
+  background-color: #d0d0d0;
+}
+
+.step-counter {
+  color: #666;
+  font-weight: 500;
+}
+
+/* Metrics Selection Styles */
+.metrics-selection-section {
+  margin-bottom: 2rem;
+}
+
+.characteristic-metrics-selection {
+  margin-bottom: 2.5rem;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+.characteristic-metrics-selection h3 {
+  color: #9c27b0;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #9c27b0;
+}
+
+.sub-characteristic-metrics-selection {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+}
+
+.sub-characteristic-metrics-selection h4 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.default-metrics {
+  margin-bottom: 1rem;
+}
+
+.default-metrics label {
+  display: block;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.metrics-checkbox-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.metric-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-color: white;
+}
+
+.metric-option:hover {
+  border-color: #9c27b0;
+  background-color: #f3e5f5;
+}
+
+.metric-option.selected {
+  border-color: #9c27b0;
+  background-color: #e1bee7;
+}
+
+.metric-option input[type="checkbox"] {
+  margin-top: 0.25rem;
+  cursor: pointer;
+}
+
+.metric-option .metric-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.metric-option .metric-info strong {
+  color: #333;
+}
+
+.metric-details {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.metric-description {
+  font-size: 0.8rem;
+  color: #888;
+  font-style: italic;
+}
+
+.selected-metrics {
+  margin: 1rem 0;
+  padding: 0.75rem;
+  background-color: #e8f5e9;
+  border-radius: 4px;
+}
+
+.selected-metrics label {
+  display: block;
+  font-weight: 500;
+  color: #2e7d32;
+  margin-bottom: 0.5rem;
+}
+
+.selected-metrics-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.selected-metric-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background-color: white;
+  border: 1px solid #4caf50;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  color: #2e7d32;
+}
+
+.custom-badge {
+  padding: 0.125rem 0.5rem;
+  background-color: #ff9800;
+  color: white;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.metric-values-section {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #c8e6c9;
+}
+
+.metric-values-section label {
+  display: block;
+  font-weight: 500;
+  color: #2e7d32;
+  margin-bottom: 0.5rem;
+}
+
+.custom-metric-section {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dashed #ccc;
+}
+
+.btn-add-custom {
+  padding: 0.5rem 1rem;
+  background-color: #fff;
+  color: #9c27b0;
+  border: 2px dashed #9c27b0;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-add-custom:hover {
+  background-color: #f3e5f5;
+  border-style: solid;
+}
+
+.custom-metric-form {
+  padding: 1rem;
+  background-color: #fff3e0;
+  border-radius: 4px;
+  border: 1px solid #ffb74d;
+}
+
+.custom-metric-form h5 {
+  color: #e65100;
+  margin-bottom: 1rem;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-row label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.form-row input,
+.form-row select {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.form-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.btn-add,
+.btn-cancel {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-add {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-add:hover {
+  background-color: #45a049;
+}
+
+.btn-cancel {
+  background-color: #e0e0e0;
+  color: #666;
+}
+
+.btn-cancel:hover {
+  background-color: #d0d0d0;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+
