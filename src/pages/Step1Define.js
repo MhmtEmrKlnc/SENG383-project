@@ -52,6 +52,22 @@ const Step1Define = ({ onNext, initialData }) => {
 
   return (
     <div className="step1-define">
+      <div className="documentation-links">
+        <h3>Additional Resources</h3>
+        <p>For more information and guidance, you can download the following documents:</p>
+        <div className="doc-buttons">
+          <a href="/iso25010.pdf" target="_blank" rel="noopener noreferrer" className="doc-btn">
+            Download ISO 25010
+          </a>
+          <a href="/iso25023.pdf" target="_blank" rel="noopener noreferrer" className="doc-btn">
+            Download ISO 25023
+          </a>
+          <a href="/user_guide.pdf" target="_blank" rel="noopener noreferrer" className="doc-btn guide">
+            Download User Guide
+          </a>
+        </div>
+      </div>
+
       <h2>Step 1: Define Quality Dimensions</h2>
       <p className="step-description">
         Users can either load predefined case studies (IoT, Healthcare, Mobile App) or manually select quality dimensions from ISO 25010.

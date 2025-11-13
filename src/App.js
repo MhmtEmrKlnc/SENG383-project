@@ -89,6 +89,11 @@ function App() {
       <main className="app-main">
         {renderStep()}
       </main>
+
+      <footer className="app-footer">
+        <p>Mehmet Emre Kılınç</p>
+        <p>c2111058@student.cankaya.edu.tr</p>
+      </footer>
     </div>
   );
 }
